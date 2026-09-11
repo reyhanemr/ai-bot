@@ -59,6 +59,8 @@ class ChatController extends Controller
             $category = 'dfa';
         } elseif (str_starts_with($lower, 'nfa')) {
             $category = 'nfa';
+        } elseif (str_starts_with($lower, 'regex')) {
+            $category = 'regex';
         } elseif ($pdfFile) {
             $category = 'general';
         }
@@ -297,7 +299,7 @@ class ChatController extends Controller
     {
         $user = Auth::user();
 
-        if (!in_array($category, ['all','dfa','nfa'])) {
+        if (!in_array($category, ['all','dfa','nfa','regex']))  {
             return response()->json(['success'=>false,'message'=>'invalid category']);
         }
 

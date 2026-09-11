@@ -53,6 +53,7 @@
                 <li class="cursor-pointer hover:text-blue-400" onclick="filterChats('all')">همه چت‌ها</li>
                 <li class="cursor-pointer hover:text-blue-400" onclick="filterChats('dfa')">چت‌های DFA</li>
                 <li class="cursor-pointer hover:text-blue-400" onclick="filterChats('nfa')">چت‌های NFA</li>
+                <li class="cursor-pointer hover:text-blue-400" onclick="filterChats('regex')">چت‌های Regex</li>
             </ul>
         </div>
 
@@ -395,11 +396,11 @@
                 const alphabetInput = document.getElementById('alphabetInput').value.trim();
                 const alphabet = alphabetInput ? alphabetInput.split(',').map(s => s.trim()) : [];
 
-                if (currentAutomaton === 'dfa') {
+                if (currentAutomaton === 'dfa' || currentAutomaton === 'regex') {
                     allFromStates.forEach(state => {
                         alphabet.forEach(sym => {
                             if (!transitions[state]?.[sym]) {
-                                errors.push(`DFA: حالت "${state}" برای "${sym}" انتقال ندارد.`);
+                                errors.push(`${currentAutomaton.toUpperCase()}: حالت "${state}" برای "${sym}" انتقال ندارد.`);
                             }
                         });
                     });
@@ -664,7 +665,7 @@
                 if (!text && !selectedPdf) return;
 
                 // اگر کاربر فقط dfa/nfa نوشت، فرم باز شود (منطق قبلی)
-                if (/^(dfa|nfa)$/i.test(text) && !selectedPdf) {
+                if (/^(dfa|nfa|regex)$/i.test(text) && !selectedPdf) {
                     currentAutomaton = text.toLowerCase();
                     formTitle.textContent = currentAutomaton.toUpperCase() + ' - جدول انتقال';
                     automatonForm.classList.remove('hidden');
