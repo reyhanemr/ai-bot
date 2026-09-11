@@ -1,0 +1,72 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-DN6LoRWH.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/fonts/woff2/FD/B-Esfahan.ttf": {
+    "file": "assets/B-Esfahan-HDd6v1rs.ttf",
+    "src": "resources/fonts/woff2/FD/B-Esfahan.ttf"
+  },
+  "resources/fonts/woff2/FD/BTITRBD.woff2": {
+    "file": "assets/BTITRBD-CiIB7sz4.woff2",
+    "src": "resources/fonts/woff2/FD/BTITRBD.woff2"
+  },
+  "resources/fonts/woff2/FD/IranNastaliq.ttf": {
+    "file": "assets/IranNastaliq-B6XSjLWn.ttf",
+    "src": "resources/fonts/woff2/FD/IranNastaliq.ttf"
+  },
+  "resources/fonts/woff2/FD/Vazir-Bold-FD.woff2": {
+    "file": "assets/Vazir-Bold-FD-B9eaWCwY.woff2",
+    "src": "resources/fonts/woff2/FD/Vazir-Bold-FD.woff2"
+  },
+  "resources/fonts/woff2/FD/Vazir-FD.woff2": {
+    "file": "assets/Vazir-FD-B7LGjZzS.woff2",
+    "src": "resources/fonts/woff2/FD/Vazir-FD.woff2"
+  },
+  "resources/fonts/woff2/FD/Vazir-Light-FD.woff2": {
+    "file": "assets/Vazir-Light-FD-BedC0j2e.woff2",
+    "src": "resources/fonts/woff2/FD/Vazir-Light-FD.woff2"
+  },
+  "resources/fonts/woff2/IranYekanWeb/iranyekanwebblack.woff": {
+    "file": "assets/iranyekanwebblack-C08SRJ1r.woff",
+    "src": "resources/fonts/woff2/IranYekanWeb/iranyekanwebblack.woff"
+  },
+  "resources/fonts/woff2/IranYekanWeb/iranyekanwebbold.woff": {
+    "file": "assets/iranyekanwebbold-CX4wylZD.woff",
+    "src": "resources/fonts/woff2/IranYekanWeb/iranyekanwebbold.woff"
+  },
+  "resources/fonts/woff2/IranYekanWeb/iranyekanwebextrablack.woff": {
+    "file": "assets/iranyekanwebextrablack-C3GABmvL.woff",
+    "src": "resources/fonts/woff2/IranYekanWeb/iranyekanwebextrablack.woff"
+  },
+  "resources/fonts/woff2/IranYekanWeb/iranyekanwebextrabold.woff": {
+    "file": "assets/iranyekanwebextrabold-Dxjz_CQ8.woff",
+    "src": "resources/fonts/woff2/IranYekanWeb/iranyekanwebextrabold.woff"
+  },
+  "resources/fonts/woff2/IranYekanWeb/iranyekanweblight.woff": {
+    "file": "assets/iranyekanweblight-CL6sJG_7.woff",
+    "src": "resources/fonts/woff2/IranYekanWeb/iranyekanweblight.woff"
+  },
+  "resources/fonts/woff2/IranYekanWeb/iranyekanwebmedium.woff": {
+    "file": "assets/iranyekanwebmedium-DTeqUXTf.woff",
+    "src": "resources/fonts/woff2/IranYekanWeb/iranyekanwebmedium.woff"
+  },
+  "resources/fonts/woff2/IranYekanWeb/iranyekanwebregular.woff": {
+    "file": "assets/iranyekanwebregular-D6Cc9DMD.woff",
+    "src": "resources/fonts/woff2/IranYekanWeb/iranyekanwebregular.woff"
+  },
+  "resources/fonts/woff2/IranYekanWeb/iranyekanwebthin.woff": {
+    "file": "assets/iranyekanwebthin-DQ8Mc-nu.woff",
+    "src": "resources/fonts/woff2/IranYekanWeb/iranyekanwebthin.woff"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CXDpL9bK.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
